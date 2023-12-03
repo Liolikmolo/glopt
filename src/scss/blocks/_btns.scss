@@ -1,0 +1,44 @@
+.btn {
+    background-color: $main-color;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+        transition: all 0.2s;
+    }
+    &_header {
+        width: 160px;
+        height: 45px;
+        border-radius: 23px;
+    }
+    &_promo {
+        display: block;
+        margin: 0 auto;
+        margin-top: 39px;
+        width: 230px;
+        height: 57px;
+        border-radius: 29px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17px;
+    }
+    &_prices {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 160px;
+        height: 45px;
+        border-radius: 23px;
+    }
+    &_form {
+        width: 180px;
+        height: 45px;
+        border-radius: 23px;
+    }
+}

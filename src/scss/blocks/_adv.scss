@@ -1,0 +1,24 @@
+.adv {
+    min-height: 590px;
+    padding: 58px 0 51px 0;
+    background-color: #f3f3f3;
+    &__items {
+        margin-top: 31px;
+        display: grid;
+        grid-template: repeat(4, minmax(61px, auto)) / repeat(2, 1fr);
+        gap: 36px 61px;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 64px 447px;
+        column-gap: 20px;
+    }
+    &__descr-text {
+        margin-top: 5px;
+        color: #3a3a3a;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+}

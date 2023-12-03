@@ -1,0 +1,35 @@
+.scheme {
+    min-height: 454px;
+    padding: 51px 0 46px 0;
+    background-color: #f3f3f3;
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &__item {
+        margin-top: 29px;
+        margin-right: 25px;
+        width: 260px;
+        &-img {
+            margin: 0 auto;
+            margin-bottom: 5px;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-title {
+            text-align: center;
+        }
+        &-descr {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: center;
+        }
+    }
+    
+}

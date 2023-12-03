@@ -1,0 +1,37 @@
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/titles';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.divider {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 148px;
+    height: 1px;
+    background: $main-color;
+}
+
+.map {
+    height: 500px;
+}
+
+@import 'blocks/promo';
+@import 'blocks/btns';
+@import 'blocks/adv';
+@import 'blocks/work';
+@import 'blocks/agentAndManag';
+@import 'blocks/prices';
+@import 'blocks/schem';
+@import 'blocks/feed';
+@import 'blocks/form';

@@ -1,0 +1,47 @@
+.title {
+    color: #2e2e2e;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    &_item {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+    &_agent, &_managers {
+        color: #fff;
+    }
+    &_prices-form {
+        margin-top: 56px;
+        font-size: 28px;
+        font-weight: 400;
+        text-transform: none;
+    }
+    &_form {
+        color: #fff;
+        font-size: 19px;
+        line-height: 12px;
+    }
+}
+
+.subtitle {
+    margin-top: 17px;
+    color: #2e2e2e;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    &_agent, &_managers {
+        color: #fff;
+    }
+    &_form {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}

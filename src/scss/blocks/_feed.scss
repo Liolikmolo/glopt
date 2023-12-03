@@ -1,0 +1,45 @@
+.feed {
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+    &__slider {
+        margin: 0 auto;
+        margin-top: 31px;
+        width: 601px;
+    }
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-left {
+            margin-right: 39px;
+            width: 14px;
+            height: 47px;
+            background: url(../icons/slider/shevron_left.png);
+        }
+        &-right {
+            margin-left: 39px;
+            width: 14px;
+            height: 47px;
+            background: url(../icons/slider/shevron_right.png);
+        }
+    }
+    &__body {
+        margin-top: 19px;
+        &-title {
+            color: #3a3a3a;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            text-align: center;
+        }
+        &-descr {
+            margin-top: 18px;
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: justify;
+            text-align-last: center;
+        }
+    }
+}

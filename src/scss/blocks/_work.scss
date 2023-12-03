@@ -1,0 +1,27 @@
+.work {
+    min-height: 619px;
+    padding: 51px 0 57px 0;
+    &__items {
+        margin-top: 37px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+    &__item {
+        &-title {
+            margin-top: 27px;
+            font-size: 18px;
+            text-align: center;
+        }
+        &-descr {
+            margin-top: 5px;
+            color: #3a3a3a;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: justify;
+            text-align-last: center;
+        }
+    }
+}
